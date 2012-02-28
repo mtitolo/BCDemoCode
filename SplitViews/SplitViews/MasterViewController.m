@@ -163,6 +163,9 @@
         else if ([colorName isEqualToString:@"Green"]) {
             color = [UIColor greenColor];
         }
+        
+        // When it's time to change colors, use the conveniant class method and property on the
+        // app delegate. This can be used anywhere, which is great for extending functionality
         [[[AppDelegate app] detailViewController] changeColorTo:color];
     }
 }

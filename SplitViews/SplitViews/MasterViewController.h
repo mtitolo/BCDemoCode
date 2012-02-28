@@ -10,4 +10,7 @@
 
 @interface MasterViewController : UITableViewController
 
+// We took out the DetailViewController here, because we don't want the
+// masterViewController to be the only one who has a reference to it.
+
 @end

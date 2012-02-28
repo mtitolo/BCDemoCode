@@ -20,6 +20,8 @@
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
+
+// Create a class method for easy access to this class
 + (AppDelegate*)app;
 
 @end

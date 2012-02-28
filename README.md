@@ -6,4 +6,6 @@ Popovers is a finished example of the popover demo code.
 
 Popovers Blank is a stripped-down project that can be used to follow along.
 
-SplitViews is an empty Master/Detail project that I'll use as a starting point.
+SplitViews is a finished Master/Detail project.  
+
+SplitViews Blank is just the template you get from the Master/Detail project. Compare it to the completed project to see what we did.
