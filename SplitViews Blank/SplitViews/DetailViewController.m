@@ -44,11 +44,6 @@
     }
 }
 
-- (void)changeColorTo:(UIColor *)color
-{
-    self.view.backgroundColor = color;
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

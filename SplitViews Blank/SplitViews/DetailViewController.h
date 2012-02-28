@@ -14,6 +14,4 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
-- (void)changeColorTo:(UIColor*)color;
-
 @end

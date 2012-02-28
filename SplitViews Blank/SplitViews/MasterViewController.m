@@ -7,15 +7,12 @@
 //
 
 #import "MasterViewController.h"
-#import "AppDelegate.h"
+
 #import "DetailViewController.h"
 
-@interface MasterViewController()
-@property (strong, nonatomic) NSArray* colors;
-@end
-
 @implementation MasterViewController
-@synthesize colors = _colors;
+
+@synthesize detailViewController = _detailViewController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,8 +38,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.colors = [NSArray arrayWithObjects:@"Red", @"Blue", @"Green", nil];
-    
+	// Do any additional setup after loading the view, typically from a nib.
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        [self.tableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionMiddle];
+    }
 }
 
 - (void)viewDidUnload
@@ -90,7 +89,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.colors.count;
+    return 1;
 }
 
 // Customize the appearance of table view cells.
@@ -107,7 +106,7 @@
     }
 
     // Configure the cell.
-    cell.textLabel.text = [self.colors objectAtIndex:indexPath.row];
+    cell.textLabel.text = NSLocalizedString(@"Detail", @"Detail");
     return cell;
 }
 
@@ -151,19 +150,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        UIColor* color = nil;
-        NSString *colorName = [self.colors objectAtIndex:indexPath.row];
-        if ([colorName isEqualToString:@"Red"]) {
-            color = [UIColor redColor];
-        }
-        else if ([colorName isEqualToString:@"Blue"]) {
-            color = [UIColor blueColor];
-        }
-        else if ([colorName isEqualToString:@"Green"]) {
-            color = [UIColor greenColor];
-        }
-        [[[AppDelegate app] detailViewController] changeColorTo:color];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+	    if (!self.detailViewController) {
+	        self.detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController_iPhone" bundle:nil];
+	    }
+        [self.navigationController pushViewController:self.detailViewController animated:YES];
     }
 }
 
