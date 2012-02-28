@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F609B28514FC4AC800DC9B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F609B28414FC4AC800DC9B6F /* UIKit.framework */; };
+		F609B28714FC4AC800DC9B6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F609B28614FC4AC800DC9B6F /* Foundation.framework */; };
+		F609B28914FC4AC800DC9B6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F609B28814FC4AC800DC9B6F /* CoreGraphics.framework */; };
+		F609B28F14FC4AC800DC9B6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F609B28D14FC4AC800DC9B6F /* InfoPlist.strings */; };
+		F609B29114FC4AC800DC9B6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F609B29014FC4AC800DC9B6F /* main.m */; };
+		F609B29514FC4AC800DC9B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F609B29414FC4AC800DC9B6F /* AppDelegate.m */; };
+		F609B29814FC4AC800DC9B6F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F609B29614FC4AC800DC9B6F /* MainStoryboard_iPhone.storyboard */; };
+		F609B29B14FC4AC800DC9B6F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F609B29914FC4AC800DC9B6F /* MainStoryboard_iPad.storyboard */; };
+		F609B29E14FC4AC800DC9B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F609B29D14FC4AC800DC9B6F /* ViewController.m */; };
+		F64CFC6614FC5D5300278D98 /* webtreats_wood-pattern8-1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F64CFC6514FC5D5300278D98 /* webtreats_wood-pattern8-1024.jpg */; };
+		F64CFC6914FC607600278D98 /* stretchy.png in Resources */ = {isa = PBXBuildFile; fileRef = F64CFC6814FC607600278D98 /* stretchy.png */; };
+		F64CFC6C14FC609500278D98 /* StretchableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F64CFC6B14FC609500278D98 /* StretchableButton.m */; };
+		F64CFC6E14FC616400278D98 /* stretchy-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = F64CFC6D14FC616400278D98 /* stretchy-pressed.png */; };
+		F64CFC7014FC641200278D98 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = F64CFC6F14FC641200278D98 /* bokeh.png */; };
+		F6DCD1FF14FC519B00222DA3 /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCD1FE14FC519B00222DA3 /* PopoverViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F609B28014FC4AC800DC9B6F /* Popovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F609B28414FC4AC800DC9B6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F609B28614FC4AC800DC9B6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F609B28814FC4AC800DC9B6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F609B28C14FC4AC800DC9B6F /* Popovers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Popovers-Info.plist"; sourceTree = "<group>"; };
+		F609B28E14FC4AC800DC9B6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F609B29014FC4AC800DC9B6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F609B29214FC4AC800DC9B6F /* Popovers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Popovers-Prefix.pch"; sourceTree = "<group>"; };
+		F609B29314FC4AC800DC9B6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F609B29414FC4AC800DC9B6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F609B29714FC4AC800DC9B6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F609B29A14FC4AC800DC9B6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F609B29C14FC4AC800DC9B6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F609B29D14FC4AC800DC9B6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F64CFC6514FC5D5300278D98 /* webtreats_wood-pattern8-1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "webtreats_wood-pattern8-1024.jpg"; sourceTree = "<group>"; };
+		F64CFC6814FC607600278D98 /* stretchy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stretchy.png; sourceTree = "<group>"; };
+		F64CFC6A14FC609500278D98 /* StretchableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StretchableButton.h; sourceTree = "<group>"; };
+		F64CFC6B14FC609500278D98 /* StretchableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StretchableButton.m; sourceTree = "<group>"; };
+		F64CFC6D14FC616400278D98 /* stretchy-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stretchy-pressed.png"; sourceTree = "<group>"; };
+		F64CFC6F14FC641200278D98 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		F6DCD1FD14FC519B00222DA3 /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		F6DCD1FE14FC519B00222DA3 /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F609B27D14FC4AC800DC9B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609B28514FC4AC800DC9B6F /* UIKit.framework in Frameworks */,
+				F609B28714FC4AC800DC9B6F /* Foundation.framework in Frameworks */,
+				F609B28914FC4AC800DC9B6F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F609B27514FC4AC800DC9B6F = {
+			isa = PBXGroup;
+			children = (
+				F609B28A14FC4AC800DC9B6F /* Popovers */,
+				F609B28314FC4AC800DC9B6F /* Frameworks */,
+				F609B28114FC4AC800DC9B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F609B28114FC4AC800DC9B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F609B28014FC4AC800DC9B6F /* Popovers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F609B28314FC4AC800DC9B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F609B28414FC4AC800DC9B6F /* UIKit.framework */,
+				F609B28614FC4AC800DC9B6F /* Foundation.framework */,
+				F609B28814FC4AC800DC9B6F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F609B28A14FC4AC800DC9B6F /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				F609B29314FC4AC800DC9B6F /* AppDelegate.h */,
+				F609B29414FC4AC800DC9B6F /* AppDelegate.m */,
+				F609B29614FC4AC800DC9B6F /* MainStoryboard_iPhone.storyboard */,
+				F609B29914FC4AC800DC9B6F /* MainStoryboard_iPad.storyboard */,
+				F609B29C14FC4AC800DC9B6F /* ViewController.h */,
+				F609B29D14FC4AC800DC9B6F /* ViewController.m */,
+				F6DCD1FD14FC519B00222DA3 /* PopoverViewController.h */,
+				F6DCD1FE14FC519B00222DA3 /* PopoverViewController.m */,
+				F64CFC6A14FC609500278D98 /* StretchableButton.h */,
+				F64CFC6B14FC609500278D98 /* StretchableButton.m */,
+				F609B28B14FC4AC800DC9B6F /* Supporting Files */,
+			);
+			path = Popovers;
+			sourceTree = "<group>";
+		};
+		F609B28B14FC4AC800DC9B6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F609B28C14FC4AC800DC9B6F /* Popovers-Info.plist */,
+				F609B28D14FC4AC800DC9B6F /* InfoPlist.strings */,
+				F609B29014FC4AC800DC9B6F /* main.m */,
+				F609B29214FC4AC800DC9B6F /* Popovers-Prefix.pch */,
+				F64CFC6514FC5D5300278D98 /* webtreats_wood-pattern8-1024.jpg */,
+				F64CFC6814FC607600278D98 /* stretchy.png */,
+				F64CFC6D14FC616400278D98 /* stretchy-pressed.png */,
+				F64CFC6F14FC641200278D98 /* bokeh.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F609B27F14FC4AC800DC9B6F /* Popovers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F609B2A114FC4AC800DC9B6F /* Build configuration list for PBXNativeTarget "Popovers" */;
+			buildPhases = (
+				F609B27C14FC4AC800DC9B6F /* Sources */,
+				F609B27D14FC4AC800DC9B6F /* Frameworks */,
+				F609B27E14FC4AC800DC9B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Popovers;
+			productName = Popovers;
+			productReference = F609B28014FC4AC800DC9B6F /* Popovers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F609B27714FC4AC800DC9B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F609B27A14FC4AC800DC9B6F /* Build configuration list for PBXProject "Popovers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F609B27514FC4AC800DC9B6F;
+			productRefGroup = F609B28114FC4AC800DC9B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F609B27F14FC4AC800DC9B6F /* Popovers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F609B27E14FC4AC800DC9B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609B28F14FC4AC800DC9B6F /* InfoPlist.strings in Resources */,
+				F609B29814FC4AC800DC9B6F /* MainStoryboard_iPhone.storyboard in Resources */,
+				F609B29B14FC4AC800DC9B6F /* MainStoryboard_iPad.storyboard in Resources */,
+				F64CFC6614FC5D5300278D98 /* webtreats_wood-pattern8-1024.jpg in Resources */,
+				F64CFC6914FC607600278D98 /* stretchy.png in Resources */,
+				F64CFC6E14FC616400278D98 /* stretchy-pressed.png in Resources */,
+				F64CFC7014FC641200278D98 /* bokeh.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F609B27C14FC4AC800DC9B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609B29114FC4AC800DC9B6F /* main.m in Sources */,
+				F609B29514FC4AC800DC9B6F /* AppDelegate.m in Sources */,
+				F609B29E14FC4AC800DC9B6F /* ViewController.m in Sources */,
+				F6DCD1FF14FC519B00222DA3 /* PopoverViewController.m in Sources */,
+				F64CFC6C14FC609500278D98 /* StretchableButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F609B28D14FC4AC800DC9B6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F609B28E14FC4AC800DC9B6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F609B29614FC4AC800DC9B6F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F609B29714FC4AC800DC9B6F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F609B29914FC4AC800DC9B6F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F609B29A14FC4AC800DC9B6F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F609B29F14FC4AC800DC9B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F609B2A014FC4AC800DC9B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F609B2A214FC4AC800DC9B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Popovers/Popovers-Prefix.pch";
+				INFOPLIST_FILE = "Popovers/Popovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F609B2A314FC4AC800DC9B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Popovers/Popovers-Prefix.pch";
+				INFOPLIST_FILE = "Popovers/Popovers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F609B27A14FC4AC800DC9B6F /* Build configuration list for PBXProject "Popovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F609B29F14FC4AC800DC9B6F /* Debug */,
+				F609B2A014FC4AC800DC9B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F609B2A114FC4AC800DC9B6F /* Build configuration list for PBXNativeTarget "Popovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F609B2A214FC4AC800DC9B6F /* Debug */,
+				F609B2A314FC4AC800DC9B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F609B27714FC4AC800DC9B6F /* Project object */;
+}
